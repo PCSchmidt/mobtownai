@@ -1,6 +1,6 @@
 # MobtownAI Website
 
-This is the website for MobtownAI, designed to be deployed to the domain mobtownai.com or hosted on GitHub Pages.
+This is the website for MobtownAI, designed to be hosted on GitHub Pages.
 
 ## Project Structure
 
@@ -24,9 +24,7 @@ mobtownai/
 - Smooth scrolling and animations
 - Modern, clean UI based on the landing page template
 
-## Deployment Options
-
-### GitHub Pages Deployment
+## GitHub Pages Deployment
 
 To deploy this site to GitHub Pages:
 
@@ -38,43 +36,13 @@ To deploy this site to GitHub Pages:
    ```
 
 2. **Enable GitHub Pages:**
-   - Go to your repository on GitHub
+   - Go to your repository on GitHub (https://github.com/PCSchmidt/mobtownai)
    - Navigate to Settings > Pages
    - Set the source branch to "main" (or your preferred branch)
    - Save the changes
 
-3. **Configure custom domain (optional):**
-   - In the GitHub Pages settings, add your custom domain (mobtownai.com)
-   - Create a CNAME file in your repository with the domain name
-   - Update your domain's DNS settings to point to GitHub Pages
-
-4. **Access your site:**
-   - Your site will be available at `https://pcschmidt.github.io/mobtownai/` 
-   - Or at your custom domain if configured
-
-### SquareSpace Deployment (Alternative)
-
-To deploy this site to your SquareSpace domain (mobtownai.com), follow these steps:
-
-1. **Log in to your SquareSpace account**
-
-2. **Use the Code Injection option:**
-   - In your SquareSpace dashboard, go to Settings > Advanced > Code Injection
-   - In the Header section, paste the contents of your CSS file
-   - In the Footer section, paste the contents of your JavaScript files
-
-3. **Alternative: Use Developer Mode**
-   - If available on your SquareSpace plan, enable Developer Mode
-   - This allows you to directly upload and edit your site files
-   - Follow SquareSpace's documentation for using Developer Mode
-
-4. **Custom Domain Setup:**
-   - Ensure your domain (mobtownai.com) is properly configured in SquareSpace
-   - Verify DNS settings are correct
-
-5. **Content Integration:**
-   - You may need to recreate some of the sections using SquareSpace's native content blocks
-   - For complete control, consider using a "Code Block" in SquareSpace to add custom HTML
+3. **Access your site:**
+   - Your site will be available at `https://pcschmidt.github.io/mobtownai/`
 
 ## Local Development
 
